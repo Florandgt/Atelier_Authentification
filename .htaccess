@@ -2,3 +2,8 @@ AuthName "Accès protégé"
 AuthType Basic
 AuthUserFile /home/supyan/www/.htpasswd
 Require valid-user
+
+AuthName "Accès protégé"
+AuthType Basic
+AuthUserFile /home/admin/www/.htpasswd
+Require valid-user
